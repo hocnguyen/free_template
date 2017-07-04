@@ -1,0 +1,59 @@
+/**
+ * Created by 4Club on 22.10.2016.
+ */
+#social-share {
+    display: block;
+}
+#social-share .btn-social-text {
+    margin: 0 15px 0 0;
+}
+#social-share .btn-social {
+    position: relative;
+    padding: 10px 28px 9px 0;
+    margin: 20px 0 10px 12px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid rgba(0, 0, 0, .0001) !important;
+}
+#social-share .btn-social-telegram {
+    background: url("../images/telegram.svg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    outline: none !important;
+}
+#social-share .btn-social-vk {
+    background: url("../images/vk.svg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+#social-share .btn-social-facebook {
+    background: url("../images/facebook.svg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+#social-share .btn-social-twitter {
+    background: url("../images/twitter.svg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+#social-share .btn-social-google-plus {
+    background: url("../images/google-plus.svg");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    outline: none;
+}

@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'adminEmail' 			=> 'admin@clickbuyall.com',
+    'support_email'         => 'designwebvn@gmail.com',
+    'domain-company'        => 'Clickbuyall.com',
+    'support_phone'         => '0905246855 - 0905557507',
+    'site_admin'    		=> 'Administrator - Click Buy All',
+    'site_name'             => 'Click Buy All',
+    'url_admin'     		=> '/admin-cp',
+    'active_display' 		=> [0 => "Disable",1=>"Enable"],
+    'active_status'         => [0 => "Unactive",1=>"Active"],
+    'status_read'			=> [0 => "Unread", 1 => "Read"],
+    'status_user'           => [0 => "Unactive", 10 => "Active"],
+    'status_role_user'      => [10 => "Customer", 20 => "Admin"],
+    'banner_position'       => [1 => "Top", 2 => "Bottom", 3 => "Right", 4 => "Left"],
+    'banner_type'           => [1 => "Image", 2 => "Flash", 3 => "HTML code"],
+    'class_side_menu'		=> "class='active_menu'",
+    'open_side_menu'		=> "opened",
+    'sub_menu_catalog'		=> ['products' => 'Products','categories' => 'Categories','manufacturers' => 'Manufacturers','tags'=> 'Product tags', 'wishlist'=> 'Wishlists', 'compares'=> 'Compare', 'productreviews'=> 'Product Feedback' ],
+    'sub_menu_sales'		=> ['orders' => 'Orders' ,'orderstatus' => 'Order Status'],
+     'sub_menu_customers'	=> ['user' => 'Customers' ,'bestcustomers'=> 'Purchase approved','bestcustomerspending'=> 'Purchase pending'],
+     'sub_menu_stats'		=> ['statsbydate' => 'Statistics by Date', 'statsproducts' => 'Best-selling Products' ,'bestcustomer' => 'Best Customers'],
+     'sub_menu_news'        => [ 'posts'=>'Posts', 'htmlpages'=>'Html Page', 'categorypost' => 'Categories', 'tagspost' => 'Tags'],
+     'sub_menu_promotions'	=> ['affiliates' => 'Affiliates' ,'campaigns' => 'Campaigns'],
+     'sub_menu_configuration'	=> ['paymentmethods' => 'Payment methods', 'languages'=> 'Languages', 'banners' => 'Banners advertise', 'bannerscategory' => 'Banners category', 'newsletter' => 'Newsletter', 'slidershow' => 'Slider shows', 'countries' => 'Countries', 'mail'=> 'Email Templates', 'socials'=> 'Manage Socials', 'widgets' => 'Manage Widgets'],
+     'sub_menu_profile'	     => ['user/admin' => 'Profile' ,'user/changepass' => 'Change password'],
+     'sub_menu_system'	     => ['systeminformation' => 'System information' ,'track' => 'Log'],
+
+     'main_menu'       => ['' => 'Home', 'bestselling' => 'Best Selling', 'products' => 'Products' ,'infor' => 'My Information', 'orders' => 'My Orders', 'blog' => 'Blogs', 'contact.html' => 'Contact Us'],
+
+     'menu_customer'         => ['orders' => 'My Orders', 'compare' => 'Compare', 'wishlist' => 'Wish list', 'feedback' => 'Product Feedback', 'infor' => 'My Information', 'logout' => 'Logout'],
+     'status_active'         => 1,
+     'max_level_tag'         => 5,
+     'status_active_user'    => 10,
+     'user.passwordResetTokenExpire' => 3600,
+];
